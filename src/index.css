@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkBg: #18477b;
+}
+  .headingsTabs {
+    @apply border border-sky-300 p-3 rounded-3xl font-semibold bg-sky-300/25 cursor-pointer hover:bg-sky-300/10 transition-all duration-300;
+  }
+
+  .box{
+    @apply rounded-xl border p-6 flex flex-col gap-3 bg-sky-50/50 border-gray-200 shadow-2xs hover:bg-sky-100/50 cursor-pointer
+  }
+
+  .boxDetails{
+   @apply font-semibold text-blue-800 text-[20px]
+  }
+  
