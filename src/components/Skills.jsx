@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <>
-      <div className="container mx-auto rounded-2xl bg-white pt-10 pb-5 mt-7 shadow-md">
+      <div className="container w-[90%] mx-auto rounded-2xl bg-white pt-10 pb-5 mt-7 shadow-md">
         <h2 className=" border-b-2 border-b-gray-200 pb-5 text-3xl text-blue-900 font-semibold mx-11">
           Skills
         </h2>

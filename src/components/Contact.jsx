@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <div className="container bg-blue-900 mx-auto pt-14 flex flex-col gap-5 pb-12 my-7 rounded-2xl shadow-lg">
+      <div className="container bg-blue-900 mx-auto pt-14 flex flex-col gap-5 pb-12 my-7 rounded-2xl shadow-lg w-[90%]">
         <h2 className=" border-b-2 border-b-gray-200/15 pb-5 text-3xl text-white font-semibold mx-11">
           Contact Me
         </h2>

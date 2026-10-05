@@ -3,7 +3,7 @@ import second from "../assets/digital-agency-pro.png";
 export default function Experience() {
   return (
     <>
-      <div className="container mx-auto rounded-2xl bg-white pt-10 pb-14 mt-7 shadow-md">
+      <div className="container mx-auto rounded-2xl bg-white pt-10 pb-14 mt-7 shadow-md w-[90%]">
         <h2 className=" border-b-2 border-b-gray-200 pb-5 text-3xl text-blue-900 font-semibold mx-11">
           Experience
         </h2>
