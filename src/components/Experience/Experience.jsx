@@ -1,6 +1,6 @@
 import first from "../../assets/techcorp.png";
 import second from "../../assets/digital-agency-pro.png";
-import Boxes from "./boxes";
+import Boxes from "./Boxes";
 export default function Experience() {
   return (
     <>
