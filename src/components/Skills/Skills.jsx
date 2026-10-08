@@ -1,4 +1,10 @@
 import Languages from "./languages";
+let languages = [
+  { title: "HTML", desc: "Buillding The Structure Of Web pages." },
+  { title: "CSS3", desc: "Creating beautiful and responsive designs." },
+  { title: "JavaScript", desc: "Adding interaction and functionality." },
+  { title: "React", desc: "Building modern user interfaces." },
+];
 export default function Skills() {
   return (
     <>
@@ -11,15 +17,9 @@ export default function Skills() {
             These are some of the technologies I use in my projects:
           </p>
           <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-4 my-8">
-
-            <Languages title="HTML" desc="Buillding The Structure Of Web pages."/>
-
-            <Languages title="CSS3" desc="Creating beautiful and responsive designs."/>
-
-            <Languages title="JavaScript" desc=" Adding interaction and functionality."/>
-
-            <Languages title="React" desc="Building modern user interfaces."/>
-            
+            {languages.map((item) => (
+              <Languages {...item} key={item.title} />
+            ))}
           </div>
         </div>
       </div>
