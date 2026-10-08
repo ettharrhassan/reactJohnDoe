@@ -1,18 +1,18 @@
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Skills from "./components/Skills";
+import Skills from "./components/Skills/Skills"
 
 function App() {
   return (
     <>
       <Header />
       <About />
-      <Skills />
-      <Experience />
+      <Skills/>
+      <Experience/>
       <Contact />
       <Footer />
     </>
